@@ -3,7 +3,6 @@
 import os,sys
 import ConfigParser
 import logging
-import ConfigParser
 import traceback
 import optparse
 import json
