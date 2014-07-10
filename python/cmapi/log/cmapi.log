@@ -1,0 +1,143 @@
+INFO     2014-05-02 13:03:05 mydatabase.py LINE:90 PID:11726 THD:140379075659488 : unvalid json string! {"name":"aa"a}
+INFO     2014-05-02 22:43:39 mydatabase.py LINE:127 PID:21235 THD:140177711216352 : Cannot find the record which id=system_init-bs
+INFO     2014-05-03 00:10:07 mydatabase.py LINE:93 PID:26929 THD:140637034100448 : unvalid json string: 鲜花
+INFO     2014-05-03 00:10:17 mydatabase.py LINE:93 PID:27245 THD:139637450471136 : unvalid json string: 鲜花
+INFO     2014-05-06 16:02:42 mydatabase.py LINE:127 PID:13977 THD:139958936561376 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:02:43 mydatabase.py LINE:127 PID:14000 THD:140655425713888 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:02:44 mydatabase.py LINE:127 PID:14041 THD:140309674993376 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:10 mydatabase.py LINE:127 PID:15401 THD:139923727013600 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:11 mydatabase.py LINE:127 PID:15460 THD:140618081298144 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:11 mydatabase.py LINE:127 PID:15485 THD:140012928358112 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:39 mydatabase.py LINE:127 PID:16828 THD:140599385413344 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:39 mydatabase.py LINE:127 PID:16898 THD:140012889208544 : Cannot find the record which id=service_deploy
+INFO     2014-05-06 16:03:40 mydatabase.py LINE:127 PID:16939 THD:140358683289312 : Cannot find the record which id=service_deploy
+INFO     2014-05-10 15:22:09 mydatabase.py LINE:234 PID:5959 THD:140572064814816 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:09 mydatabase.py LINE:234 PID:5966 THD:140011354793696 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:10 mydatabase.py LINE:234 PID:6047 THD:139819442640608 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:10 mydatabase.py LINE:234 PID:6111 THD:140461105940192 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:11 mydatabase.py LINE:234 PID:6134 THD:140529909651168 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:12 mydatabase.py LINE:234 PID:6157 THD:140589875390176 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:12 mydatabase.py LINE:234 PID:6182 THD:139767561926368 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:13 mydatabase.py LINE:234 PID:6205 THD:140327945316064 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:14 mydatabase.py LINE:234 PID:6228 THD:140220635895520 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:22:14 mydatabase.py LINE:234 PID:6271 THD:140605861836512 : the value "2014-05-10" must be valid json or string
+INFO     2014-05-10 15:23:40 mydatabase.py LINE:234 PID:10796 THD:140445685532384 : the value "2014-05-10 15:23:40" must be valid json or string
+INFO     2014-05-10 15:23:40 mydatabase.py LINE:234 PID:10868 THD:140514927404768 : the value "2014-05-10 15:23:40" must be valid json or string
+INFO     2014-05-10 15:23:41 mydatabase.py LINE:234 PID:10891 THD:140092929615584 : the value "2014-05-10 15:23:41" must be valid json or string
+INFO     2014-05-10 15:23:42 mydatabase.py LINE:234 PID:10950 THD:140544848697056 : the value "2014-05-10 15:23:41" must be valid json or string
+INFO     2014-05-10 15:23:42 mydatabase.py LINE:234 PID:10957 THD:140578988590816 : the value "2014-05-10 15:23:42" must be valid json or string
+INFO     2014-05-10 15:23:43 mydatabase.py LINE:234 PID:10980 THD:140645666113248 : the value "2014-05-10 15:23:42" must be valid json or string
+INFO     2014-05-10 15:23:43 mydatabase.py LINE:234 PID:11010 THD:140532142237408 : the value "2014-05-10 15:23:43" must be valid json or string
+INFO     2014-05-10 15:23:44 mydatabase.py LINE:234 PID:11101 THD:140371164493536 : the value "2014-05-10 15:23:43" must be valid json or string
+INFO     2014-05-10 15:23:45 mydatabase.py LINE:234 PID:11128 THD:140725648352992 : the value "2014-05-10 15:23:45" must be valid json or string
+INFO     2014-05-10 15:23:45 mydatabase.py LINE:234 PID:11140 THD:139892202673888 : the value "2014-05-10 15:23:45" must be valid json or string
+INFO     2014-05-10 15:24:15 mydatabase.py LINE:234 PID:12624 THD:140463560672992 : the value "2014-05-10 15:23:45" must be valid json or string
+INFO     2014-05-10 15:24:19 mydatabase.py LINE:234 PID:12785 THD:140251792901856 : the value "2014-05-1015:23:45" must be valid json or string
+INFO     2014-05-10 16:17:39 mydatabase.py LINE:183 PID:21754 THD:139772034152160 : The data string is unvalid json string!
+INFO     2014-05-15 15:25:38 mydatabase.py LINE:127 PID:11999 THD:140489515132640 : Cannot find the record which id=5368ed419ad9b28393ed454b
+INFO     2014-05-22 18:14:10 mydatabase.py LINE:127 PID:24751 THD:140254776432352 : Cannot find the record which id=us
+INFO     2014-05-22 18:14:10 mydatabase.py LINE:127 PID:24798 THD:140157877925600 : Cannot find the record which id=us
+INFO     2014-05-25 15:19:02 mydatabase.py LINE:127 PID:24079 THD:139788935972576 : Cannot find the record which id=sac.www.nj
+INFO     2014-05-25 15:26:42 mydatabase.py LINE:127 PID:17909 THD:139724754065120 : Cannot find the record which id=x
+INFO     2014-05-25 15:26:43 mydatabase.py LINE:127 PID:17917 THD:139969930434272 : Cannot find the record which id=x
+INFO     2014-05-25 16:43:14 mydatabase.py LINE:127 PID:12936 THD:140333356816096 : Cannot find the record which id=nj_group_0
+INFO     2014-05-25 16:43:15 mydatabase.py LINE:127 PID:12949 THD:139892011722464 : Cannot find the record which id=nj_group_0
+INFO     2014-05-25 17:10:37 mydatabase.py LINE:127 PID:11372 THD:140281625474784 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-25 17:10:38 mydatabase.py LINE:127 PID:11421 THD:139830969685728 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-25 17:10:47 mydatabase.py LINE:127 PID:12090 THD:140054667470560 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-25 17:10:47 mydatabase.py LINE:127 PID:12156 THD:140469740418784 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-25 17:11:46 mydatabase.py LINE:127 PID:15232 THD:139869894325984 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-25 17:11:46 mydatabase.py LINE:127 PID:15279 THD:140087514187488 : Cannot find the record which id=nj-newbc-3
+INFO     2014-05-28 21:09:00 mydatabase.py LINE:127 PID:11148 THD:140661102331616 : Cannot find the record which id=ac.www.nj
+INFO     2014-05-29 21:34:58 mydatabase.py LINE:127 PID:3659 THD:140214962099936 : Cannot find the record which id=competitor_360_0
+CRITICAL 2014-05-31 12:30:12 cmapi LINE:77 PID:2514 THD:140516755695328 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:30:17 cmapi LINE:77 PID:2769 THD:140009502500576 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:30:20 cmapi LINE:77 PID:2890 THD:140564003874528 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:30:48 cmapi LINE:77 PID:4469 THD:140189273962208 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:37:13 cmapi LINE:77 PID:28458 THD:140636832302816 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:49:56 cmapi LINE:77 PID:10537 THD:139991537272544 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+
+CRITICAL 2014-05-31 12:51:54 cmapi LINE:77 PID:17127 THD:139795940579040 : Traceback (most recent call last):
+  File "./cmapi", line 73, in <module>
+    db = mydatabase.mydatabase(config, log, para, common_config)
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 34, in __init__
+    self.connect()
+  File "/home/work/opbin/mengalong/deploy_tar/cm/bin/../lib/mydatabase.py", line 46, in connect
+    db_conn = pymongo.Connection(self.hostname, 1105);
+  File "build/bdist.linux-x86_64/egg/pymongo/connection.py", line 236, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "build/bdist.linux-x86_64/egg/pymongo/mongo_client.py", line 366, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 111] Connection refused
+

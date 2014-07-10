@@ -1,0 +1,20 @@
+#./cmapi.py  system_install add  --data='{"os_conf":{"kernel":"2.3.4","os_name":"xya"}}'
+#./cmapi.py  system_install del --id=xyz 
+
+#id 不存在的情况
+#./cmapi.py system_install get-meta-all --id=xy
+
+#id 存在不加 -p 参数
+#./cmapi.py system_install get-meta-all --id=us
+#id -p
+#./cmapi.py system_install get-meta-all --id=us -p
+#./cmapi.py system_install get-meta-all --id=us --pretty
+
+#get-meta-attr, 支持 -p参数
+#./cmapi.py system_install get-meta-attr --id=us --key=os_conf.aa -p
+#./cmapi.py system_install get-meta-attr --id=us --key=raid_conf.raid_mode
+
+#set-meta-all
+
+./cmapi.py system_install set-meta-all --id=xxx --data='{"data":{"a":2}}'
+#./cmapi.py system_install set-meta-attr --key=data.b --value='{t:x,}' --id=xyz

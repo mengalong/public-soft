@@ -1,0 +1,22 @@
+object:
+	system_install
+	system_init
+	software_install
+	
+	data_deploy
+	crontab_init
+	log_upload
+	bns_init
+	
+	service_deploy
+	deploy_conf
+
+action
+	get-meta-all --id=xxx
+	get-meta-attr --id=xxx --key=xxx
+	set-meta-all --id=xxx --data=xxx
+	set-meta-attr --id=xxx --key=xxx --value=xxx
+
+	add
+	del
+	list
