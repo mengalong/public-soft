@@ -1,0 +1,4 @@
++ [export_ps4.sh:16  2016-10-25 18:04:50] test_log
++ [export_ps4.sh:8 test_log 2016-10-25 18:04:50] echo 'here is the test func'
++ [export_ps4.sh:17  2016-10-25 18:04:50] test_record
++ [export_ps4.sh:13 test_record 2016-10-25 18:04:50] echo 'here is the test record func'
