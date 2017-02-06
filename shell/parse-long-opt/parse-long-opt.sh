@@ -1,7 +1,7 @@
 #!/bin/bash
 ## parse arguments and options
 LONGOPTS="index_type:,index_num:,key:,help"
-PROGNAME=“$0”
+PROGNAME="$0"
 SHORT="t:n:k:h"
 TEMP=`getopt --options ${SHORT} --longoptions ${LONGOPTS} --name ${PROGNAME} -- "$@"`
 [ $? -ne 0 ] && usage && exit 1
