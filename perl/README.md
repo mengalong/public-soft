@@ -1,5 +1,4 @@
-#### publib
-* 对外的公共lib库
+# publib: third-party library
+* Logme: a module for log
 
-#### t
-* 针对不同的模块、工具产出的单元测试工具或者是一些实例
+# t: some tests or examples
