@@ -1,11 +1,14 @@
-## public_tool
-* 公共组件,一些常用方法
+# public\_tool
+some basic interface
 
-## cmapi
-* 访问数据库的接口，mongodb
+# cmapi
+The cli to access mongodb
 
-## parser-args
-* 解析命令行参数的方法
+# parser-args
+* parser the command args
+
+# hash\_ring
+Implement the consistency hash from OpenStack
 
 ## 关于pymongo的autoreconnect的问题
 * https://review.openstack.org/#/c/122387/14/ceilometer/storage/mongo/utils.py
