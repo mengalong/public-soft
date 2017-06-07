@@ -7,9 +7,9 @@ then
 	max_times=$2
 	cmd=$3
 else
-    echo "Error! Not enough params."
-    echo "Sample: bash para_do.sh 10 100 '\$cmd'"
-    exit 2;
+	echo "Error! Not enough params."
+	echo "Sample: bash para_do.sh 10 100 '\$cmd'"
+	exit 2;
 fi
 
 
@@ -20,7 +20,7 @@ rm -rf $tempfifo
 
 for ((i=1; i<=$batch_num; i++))
 do
-    echo >&1000
+	echo >&1000
 done
 
 start_time=0
