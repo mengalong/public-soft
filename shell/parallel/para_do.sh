@@ -30,7 +30,7 @@ do
     read -u1000
     {
 		$cmd
-        echo >&1000
+		echo >&1000
     } &
 	echo "$start_time end..."
 	((start_time++))
