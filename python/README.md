@@ -10,6 +10,9 @@ The cli to access mongodb
 # hash\_ring
 Implement the consistency hash from OpenStack
 
+# python\_parallel
+A parallel demo
+
 ## 关于pymongo的autoreconnect的问题
 * https://review.openstack.org/#/c/122387/14/ceilometer/storage/mongo/utils.py
 * https://bugs.launchpad.net/ceilometer/+bug/1309555
