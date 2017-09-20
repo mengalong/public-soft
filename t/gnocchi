@@ -1,0 +1,82 @@
+1. 基础安装：
+pip install gnocchi[postgresql,ceph,keystone]
+
+2. 生成gnocchi.conf
+3. 安装uwsgi: yum install uwsgi
+4. 安装python依赖：yum install uwsgi-plugin-python     
+5. 安装mysql
+    1. yum install mysql
+    2. yum install mariadb-server
+    3. 修改数据库root密码为 123456
+    4. pip install pymysql
+6. 启动gnocchi-api：uwsgi /etc/gnocchi/uwsgi.ini  -s /etc/gnocchi/uwsgi.sock
+7. 创建gnocchi数据库：create database gnocchi;
+8. 初始化gnocchi数据库：gnocchi-upgrade
+9. 启动gnocchi-api：uwsgi --ini /etc/gnocchi/uwsgi.ini
+
+
+实例：
+7. 创建resource
+    1. gnocchi resource create  mengalong_t1
+8. 创建metric
+    1. gnocchi metric create cpu_util --resource-id=mengalong_t1 --unit=% --archive-policy-name=low
+9. 创建measure
+    1. gnocchi measures add cpu_util --resource-id=mengalong_t1 -m 2017-09-21T21:22:22@10.5
+10. 查询measures
+    1. gnocchi measures show --resource-id=e99505d8-dce1-541a-885b-b455261b81f4 cpu_util
+    2. 默认archive-policy-name=low , 默认对应的聚合周期是5min，因此5min内的点都会被聚合为1个
+    3. 如果要按照秒级进行聚合，那么就需要指定archive-policy-name=bool
+11. 创建metric，指定聚合策略为bool
+    1. gnocchi metric create mem_util --resource-id=mengalong_t1 --unit=% --archive-policy-name=bool
+12. 创建两个measure
+    1. [root@along-server gnocchi]# gnocchi measures add mem_util --resource-id=mengalong_t1 -m 2017-09-21T19:22:24@10.7
+    2. [root@along-server gnocchi]# gnocchi measures add mem_util --resource-id=mengalong_t1 -m 2017-09-21T19:22:25@10.8
+13. 查看对应的measure：
+    1. gnocchi measures show mem_util --resource-id=mengalong_t1 --aggregation=last --refresh
+
+gnocchi.conf:
+
+[DEFAULT]
+log_options = true
+log_dir = /var/log/gnocchi/
+log_file = gnocchi.log
+[api]
+port = 8041
+host = localhost
+[archive_policy]
+[cors]
+[database]
+connection = mysql://root:123456@localhost:3306/gnocchi
+[healthcheck]
+[incoming]
+[indexer]
+url = mysql://root:123456@localhost:3306/gnocchi
+[keystone_authtoken]
+[metricd]
+[oslo_middleware]
+[oslo_policy]
+[statsd]
+[storage]
+driver = file
+file_basepath = /var/lib/gnocchi
+
+uwsgi.ini
+[uwsgi]
+http-socket = localhost:8041
+# Set the correct path depending on your installation
+wsgi-file = /usr/bin/gnocchi-api
+hah = xxx
+master = true
+die-on-term = true
+threads = 32
+# Adjust based on the number of CPU
+processes = 3
+enabled-threads = true
+thunder-lock = true
+plugins = python
+buffer-size = 65535
+lazy-apps = true
+add-header = Connection: close
+
+start uwsgi:
+uwsgi --ini /etc/gnocchi/uwsgi.ini
