@@ -24,7 +24,10 @@ def load_json(filename):
 def json_print(data):
     print(json.dumps(data, sort_keys=True, indent=4, separators=(',',":")))
 
-
+def json_write(filename, data):
+    with open(filename, "w") as f:
+        json.dump(data, f, sort_keys=True, indent=4, separators=(',',":"))
+        #json.dump(data, f)
 
 def main():
     pass
