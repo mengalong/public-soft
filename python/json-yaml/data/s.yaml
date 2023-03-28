@@ -1,0 +1,13 @@
+packages:
+    p1:
+        category: 数据
+        subsystem: data
+        subsystem-cn: data_process服务
+    P2:
+        category: basic服务
+        subsystem: basic
+        subsystem-cn: basicdata
+    p3:
+        category: 数据库
+        subsystem: mysql
+        subsystem-cn: mysql-data

@@ -1,0 +1,14 @@
+{
+    "age":90,
+    "class":{
+        "math":{
+            "score":98,
+            "teacher":"lidya"
+        },
+        "science":{
+            "score":100,
+            "teacher":"jack"
+        }
+    },
+    "name":"小明"
+}
