@@ -17,3 +17,21 @@ python3 parser-cert.py
 2. 解析指定的证书文件
 
  python3 parser-cert.py www.aliyun.com.cert
+
+# 工具
+
+1. 解析证书内容
+
+openssl x509 -in www.aliyun.com.cert -text -noout
+
+2. 验证证书有效性
+
+openssl verify www.aliyun.com.cert
+
+3. 提取证书公钥
+
+openssl x509 -in www.aliyun.com.cert -pubkey -noout
+
+4. 提取证书有消息
+
+openssl x509 -in www.aliyun.com.cert -dates -noout
