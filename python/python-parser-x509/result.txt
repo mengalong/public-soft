@@ -1,0 +1,88 @@
+Subject: <X509Name object '/C=CN/ST=ZheJiang/L=HangZhou/O=Alibaba (China) Technology Co., Ltd./CN=*.aliyun.com'>
+Issuer: <X509Name object '/C=BE/O=GlobalSign nv-sa/CN=GlobalSign Organization Validation CA - SHA256 - G3'>
+Start date: b'20230505062116Z'
+Expiration date: b'20240605062115Z'
+Pubkey: <OpenSSL.crypto.PKey object at 0x10dd75610>
+signature Algorithm: b'sha256WithRSAEncryption'
+====== subject ======
+(b'C', b'CN')
+(b'ST', b'ZheJiang')
+(b'L', b'HangZhou')
+(b'O', b'Alibaba (China) Technology Co., Ltd.')
+(b'CN', b'*.aliyun.com')
+======= issuer: =========
+(b'C', b'BE')
+(b'O', b'GlobalSign nv-sa')
+(b'CN', b'GlobalSign Organization Validation CA - SHA256 - G3')
+============ extension: ============
+ext_count: 10
+
+b'keyUsage'
+Digital Signature, Key Encipherment
+
+b'authorityInfoAccess'
+CA Issuers - URI:http://secure.globalsign.com/cacert/gsorganizationvalsha2g3.crt
+OCSP - URI:http://ocsp2.globalsign.com/gsorganizationvalsha2g3
+
+b'certificatePolicies'
+Policy: 1.3.6.1.4.1.4146.1.20
+  CPS: https://www.globalsign.com/repository/
+Policy: 2.23.140.1.2.2
+
+b'basicConstraints'
+CA:FALSE
+
+b'crlDistributionPoints'
+Full Name:
+  URI:http://crl.globalsign.com/gsorganizationvalsha2g3.crl
+
+b'subjectAltName'
+DNS:*.aliyun.com, DNS:aliyun.com
+*.aliyun.com/aliyun.com
+
+b'extendedKeyUsage'
+TLS Web Server Authentication, TLS Web Client Authentication
+
+b'authorityKeyIdentifier'
+68:86:B8:7D:7A:D9:6D:49:6B:87:2F:18:8B:15:34:6C:D7:B4:7A:0E
+
+b'subjectKeyIdentifier'
+FB:43:61:72:DB:90:9F:67:07:2E:AE:74:FB:66:90:A2:E9:C4:FC:15
+
+b'ct_precert_scts'
+Signed Certificate Timestamp:
+    Version   : v1 (0x0)
+    Log ID    : 73:D9:9E:89:1B:4C:96:78:A0:20:7D:47:9D:E6:B2:C6:
+                1C:D0:51:5E:71:19:2A:8C:6B:80:10:7A:C1:77:72:B5
+    Timestamp : May  5 06:21:24.492 2023 GMT
+    Extensions: none
+    Signature : ecdsa-with-SHA256
+                30:46:02:21:00:9E:58:D8:06:28:FC:3A:19:CC:C9:9E:
+                99:DB:05:99:16:04:0C:AB:47:90:85:C2:AA:AB:D7:05:
+                F0:8A:E8:FF:72:02:21:00:A8:04:4E:A2:7E:DA:CB:AF:
+                8F:99:84:1B:F3:10:DF:5D:34:90:8A:96:FB:78:0D:A0:
+                8A:FF:F4:DF:F5:C2:3E:1E
+Signed Certificate Timestamp:
+    Version   : v1 (0x0)
+    Log ID    : EE:CD:D0:64:D5:DB:1A:CE:C5:5C:B7:9D:B4:CD:13:A2:
+                32:87:46:7C:BC:EC:DE:C3:51:48:59:46:71:1F:B5:9B
+    Timestamp : May  5 06:21:24.469 2023 GMT
+    Extensions: none
+    Signature : ecdsa-with-SHA256
+                30:45:02:21:00:F5:85:0A:0D:E2:22:92:AD:5B:08:63:
+                16:AB:3B:BD:27:5B:21:9A:76:84:71:38:71:D4:70:FC:
+                D5:16:2E:F4:67:02:20:19:33:A2:D1:88:D3:01:1D:8B:
+                81:12:82:EE:F9:D8:8E:E1:91:29:C4:00:9D:29:93:E2:
+                F2:5C:75:D7:3F:2A:BA
+Signed Certificate Timestamp:
+    Version   : v1 (0x0)
+    Log ID    : 48:B0:E3:6B:DA:A6:47:34:0F:E5:6A:02:FA:9D:30:EB:
+                1C:52:01:CB:56:DD:2C:81:D9:BB:BF:AB:39:D8:84:73
+    Timestamp : May  5 06:21:24.267 2023 GMT
+    Extensions: none
+    Signature : ecdsa-with-SHA256
+                30:46:02:21:00:94:0B:72:37:77:1A:48:6E:55:87:2C:
+                10:3F:5E:BD:31:5F:6F:02:57:74:39:6F:44:DA:C6:1F:
+                8B:F6:C6:29:44:02:21:00:EA:FD:CF:F6:84:7A:37:65:
+                3C:39:B9:6C:20:2E:BC:B5:23:38:6D:A1:9E:3C:85:07:
+                19:40:7B:6E:51:49:BC:B2
